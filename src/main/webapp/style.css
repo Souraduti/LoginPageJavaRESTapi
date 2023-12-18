@@ -1,0 +1,29 @@
+ body {
+       font-family: Arial, sans-serif;
+       text-align: center;
+       background-color: #f4f4f4;
+ }
+ .container {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      border: 2px solid blue;
+      border-radius: 5px;
+ }
+ #password,#username{
+      width: 90%;
+      padding: 10px;
+      margin: 8px 0;
+      border: 2px solid blue;
+      border-radius: 3px;
+ }
+
+ input[type="submit"] {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+ }
